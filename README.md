@@ -12,4 +12,6 @@ The fbm_predictor.ipynb notebook contains the Python code created for the Extend
 
 **Experimental Dataset/:** This directory contains the endosome trajectory 'traj_rab5.csv''dataset analysed in the Extended Research Project.
 
+**Train-Test Datassts/:** This directory contains the Fractional Brownian Motion trajectories used to train our models. The dataset 'trajectories.csv' was used to train the model whose trajectories have varying generalised diffusion coefficients, and the dataset 'original_trajectories.csv' was used to train the baseline model where the generalised diffusion coefficient is fixed for the trajectories.
+
 **Validation Datasets:/** This directory contains the validation datasets simulating different trajectory scenarios used to validate and test the models
