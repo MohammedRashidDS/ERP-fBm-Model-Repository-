@@ -8,10 +8,12 @@ The fbm_predictor.ipynb notebook contains the Python code created for the Extend
 
 **Models/:** This directory contains pre-trained models to make the Hurst exponent predictions. The file 'model.keras' is the model trained on Fractional Brownian Motion trajectories with varying generalised diffusion coefficients. The file 'baseline_model.keras' is the baseline model trained on Fractional Brownian Motion trajectories with a fixed generalised diffusion coefficient.
 
+The models can be loaded on Python using Tensorflow Keras.
+
 ## Datasets
 
 **Experimental Dataset/:** This directory contains the endosome trajectory 'traj_rab5.csv''dataset analysed in the Extended Research Project.
 
 **Train-Test Datassts/:** This directory contains the Fractional Brownian Motion trajectories used to train our models. The dataset 'trajectories.csv' was used to train the model whose trajectories have varying generalised diffusion coefficients, and the dataset 'original_trajectories.csv' was used to train the baseline model where the generalised diffusion coefficient is fixed for the trajectories.
 
-**Validation Datasets:/** This directory contains the validation datasets simulating different trajectory scenarios used to validate and test the models
+**Validation Datasets:/** This directory contains the validation datasets simulating different trajectory scenarios used to validate and test the models.
