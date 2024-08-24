@@ -16,4 +16,8 @@ The models can be loaded on Python using Tensorflow Keras.
 
 **Train-Test Datassts/:** This directory contains the Fractional Brownian Motion trajectories used to train our models. The dataset 'trajectories.csv' was used to train the model whose trajectories have varying generalised diffusion coefficients, and the dataset 'original_trajectories.csv' was used to train the baseline model where the generalised diffusion coefficient is fixed for the trajectories.
 
-**Validation Datasets:/** This directory contains the validation datasets simulating different trajectory scenarios used to validate and test the models.
+**Validation Datasets:/** This directory contains the validation datasets simulating different fBm trajectory scenarios used to validate and test the models.
+
+v1.csv, v2.csv, v3.csv, v4.csv simulate the trajectories with different time increments.
+
+v5.csv, v6.csv, v7.csv, v8.csv, v9.csv simulate different noise levels.
